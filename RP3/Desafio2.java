@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Desafio2 {
+    public static void main(String[] args) {
+
+        try (Scanner sc = new Scanner(System.in)) {
+
+            int numero = 0;
+
+            while (numero <= 10) {
+                System.out.print("Digite um número: ");
+                numero = sc.nextInt();
+            }
+
+            System.out.println("Obrigado! Você digitou um número maior que 10.");
+        }
+    }
+}
